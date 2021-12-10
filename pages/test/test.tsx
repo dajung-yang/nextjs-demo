@@ -1,16 +1,10 @@
-import type { NextPage } from 'next'
-import {Box, BottomNavigation, BottomNavigationAction} from "@mui/material";
+import type { NextPage } from 'next';
+import Main from "@/components/templates/test/Test";
 
 const Test: NextPage = () => {
     return (
-        <Box>
-            <BottomNavigation showLabels>
-                <BottomNavigationAction label="main"></BottomNavigationAction>
-                <BottomNavigationAction label="home"></BottomNavigationAction>
-                <BottomNavigationAction label="setting"></BottomNavigationAction>
-            </BottomNavigation>
-        </Box>
+        <Main />
     )
 }
 
-export default Test
+export default Test;
