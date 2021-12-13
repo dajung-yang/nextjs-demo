@@ -2,14 +2,13 @@ import type { NextPage } from 'next';
 import NavigationBar from "@/components/organisms/NavigationBar";
 import TopBar from "@/components/organisms/TopBar";
 import {Box} from "@mui/material";
+import MainFrame from "@/components/organisms/MainFrame";
 
 const Test3: NextPage = () => {
     return (
-        <Box>
-            <TopBar />
+        <MainFrame>
                 My Beat
-            <NavigationBar />
-        </Box>
+        </MainFrame>
     )
 }
 

@@ -3,14 +3,15 @@ import NavigationBar from "@/components/organisms/NavigationBar";
 import TopBar from "@/components/organisms/TopBar";
 import Album from "@/components/organisms/Album";
 import {Box} from "@mui/material";
+import MainFrame from "@/components/organisms/MainFrame";
 
 const Main: NextPage = () => {
     return (
-        <Box>
-            <TopBar />
+        <MainFrame>
+
+
             <Album />
-            <NavigationBar />
-        </Box>
+        </MainFrame>
     )
 }
 
